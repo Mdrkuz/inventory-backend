@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.styled-table thead tr {
+  background-color: #303C6C ;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table TH,
+.styled-table TD {
+    padding: 12px 15px;
+    
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+  background-color: #fff ;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid  #303C6C ;
+}
+
+
+.search-input {
+  width: 10%;
+  border-radius: 9em;
+  background-color: white;
+  /* background-image: url('searchicon.png'); */
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+.search-input {
+  transition: width 0.4s ease-in-out;
+}
+
+.search-input:focus {
+  width: 15%;
+}
+
+/* 
+.input {
+  position: relative;
+  font-size: 1.5em;
+  background: linear-gradient(21deg, #b81d2a, #000000);
+  padding: 3px;
+  display: inline-block;
+  border-radius: 9999em;
+}
+.input *:not(span) {
+  position: relative;
+  display: inherit;
+  border-radius: inherit;
+  margin: 0;
+  border: none;
+  outline: none;
+  padding: 0.88em;
+  z-index: 1;
+}
+.input *:not(span):focus + span {
+  opacity: 1;
+  transform: scale(1);
+}
+.input span {
+  transform: scale(0.993, 0.94);
+  transition: transform 0.5s, opacity 0.25s;
+  opacity: 0;
+  position: absolute;
+  z-index: 0;
+  margin: 4px;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  box-shadow: inset 0 0 0 3px #fff, 0 0 0 4px #fff, 3px -3px 30px #3dad2e, -3px 3px 30px #851769;
+} */
+
+
+body {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FBE8A6;
+}
+
+/* 
+input {
+  font-family: inherit;
+  line-height: inherit;
+  color: #2e3750;
+  min-width: 12em;
+} */
